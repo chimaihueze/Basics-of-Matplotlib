@@ -7,3 +7,9 @@
 import matplotlib
 
 print(matplotlib.__version__)
+
+# Most of the Matplotlib utilities lies under the pyplot submodule, and are usually imported under the plt alias:
+
+import matplotlib.pyplot as plt
+
+# Now the Pyplot package can be referred to as plt.
