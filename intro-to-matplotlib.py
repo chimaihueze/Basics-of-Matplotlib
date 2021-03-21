@@ -13,3 +13,11 @@ print(matplotlib.__version__)
 import matplotlib.pyplot as plt
 
 # Now the Pyplot package can be referred to as plt.
+
+import numpy as np
+
+x = np.array([0, 10])
+y = np.array([0, 15])
+
+plt.plot(x, y)
+print(plt.show())
